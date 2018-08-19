@@ -1,0 +1,6 @@
+>>> arquivo = open('musica.txt', 'r')
+>>> texto = arquivo.readlines()
+>>> texto.append('Nova linha') 
+>>> arquivo = open('musica.txt', 'w')
+>>> arquivo.writelines(texto)
+>>> arquivo.close()
